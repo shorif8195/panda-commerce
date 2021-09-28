@@ -1,0 +1,23 @@
+.slide{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.container{
+    margin-bottom: 50px;
+}
+.row{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136f;
+}
+.buy-now-button{
+    outline: none;
+    border: none;
+    background: linear-gradient(to bottom,#FF5898,#FF136F);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
