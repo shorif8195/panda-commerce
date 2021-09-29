@@ -5,6 +5,7 @@
 .container{
     margin-bottom: 50px;
 }
+
 .row{
     padding: 20px 40px;
 }
@@ -20,4 +21,61 @@
     border-radius: 5px;
     cursor: pointer;
    
+}
+.cat1, .cat2, .cat3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.catagoris img{
+    width: 130px;
+  
+   
+}
+.cat1{
+    background: linear-gradient(to right,orange,rgba(255, 166, 0, 0.808));
+}
+.cat2{
+    background: linear-gradient(to right,#FF136f,#FF5898);
+}
+.cat3{
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.685),blue);
+}
+.shoes h1{
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 40px;
+}
+.shoes .col .card{
+    border: none;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+
+}
+.col .card{
+    border-radius: 10px;
+}
+.shoes .col .card:hover{
+    transform: translateY(-5px);
+}
+.shoes .col:nth-child(2) button{
+    margin-top: 30px;
+
+}
+.submit{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fceae8;
+}
+.submit div input{
+    outline: none;
+    border:none;
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
 }
